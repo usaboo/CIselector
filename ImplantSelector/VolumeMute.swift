@@ -10,7 +10,7 @@ import SwiftUI
 struct VolumeMute: View {
     @State var slidervalue: Double = 3
     var body: some View {
-        NavigationView{
+
                 VStack() {
                     Image("volume-1").resizable().aspectRatio(contentMode : .fit).offset(x: 0, y: -100)
                     
@@ -34,7 +34,7 @@ struct VolumeMute: View {
                     
                 }
                 
-        }
+        
         }
         
     

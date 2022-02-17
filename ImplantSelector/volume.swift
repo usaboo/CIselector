@@ -24,7 +24,7 @@ struct Volume: View {
                     
                 }
                 
-        }.navigationBarTitleDisplayMode(.inline).navigationBarHidden(true )
+        }
         }
         
     

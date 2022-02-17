@@ -10,7 +10,7 @@ import SwiftUI
 struct SecondView: View {
     @State private var action: Int? = 0
     var body: some View {
-        NavigationView{
+        
             VStack() {
                 
                 Image("naida-1").resizable().aspectRatio(contentMode : .fit)
@@ -71,7 +71,7 @@ struct SecondView: View {
 
             }.navigationTitle("").navigationBarTitleDisplayMode(.inline)
             }.offset(x: 0, y: -50)
-        }
+        
         }
     }
 

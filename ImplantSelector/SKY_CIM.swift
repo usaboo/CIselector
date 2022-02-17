@@ -10,7 +10,6 @@ import SwiftUI
 struct Skyview: View {
     @State private var action: Int? = 0
     var body: some View {
-        NavigationView{
             VStack() {
                 
                 Image("sky-1").resizable().aspectRatio(contentMode : .fit).offset(x: 0, y: 35)
@@ -50,7 +49,6 @@ struct Skyview: View {
                 Spacer()
             .navigationTitle("").navigationBarTitleDisplayMode(.inline)
             }.offset(x: 0, y: -75)
-        }
         }
     }
 
